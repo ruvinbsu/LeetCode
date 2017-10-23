@@ -1,7 +1,5 @@
 package com.leetcode.datastructure.tree.easy;
 
-import apple.laf.JRSUIUtils;
-
 /**
  * Created by ruvinyusubov on 22/10/2017.
  */
