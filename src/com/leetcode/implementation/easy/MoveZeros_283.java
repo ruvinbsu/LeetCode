@@ -6,17 +6,13 @@ package com.leetcode.implementation.easy;
 public class MoveZeros_283 {
     public void moveZeroes(int[] nums) {
         int numOfZeros = 0;
-        int posOfZero = -1;
         int ind = 0;
 
         for (int i = 0; i < nums.length; i++){
             if (nums[i] == 0){
                 numOfZeros++;
             }
-        }
-
-        for (int i = 0; i < nums.length; i++){
-            if (nums[i] != 0){
+            else {
                 nums[ind++] = nums[i];
             }
         }
