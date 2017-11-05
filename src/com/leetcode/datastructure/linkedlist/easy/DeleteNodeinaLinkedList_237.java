@@ -1,4 +1,4 @@
-package com.leetcode.datastructure.list.easy;
+package com.leetcode.datastructure.linkedlist.easy;
 
 /**
  * Created by ruvinyusubov on 04/11/2017.
@@ -15,12 +15,11 @@ public class DeleteNodeinaLinkedList_237 {
             }
         }
     }
+
+    // Definition for singly-linked list.
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
 }
-
-
-// Definition for singly-linked list.
-class ListNode {
-    int val;
-     ListNode next;
-     ListNode(int x) { val = x; }
- }
