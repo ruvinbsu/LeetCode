@@ -23,9 +23,9 @@ public class MaximumDepthofBinaryTree_104 {
         inOrderTraversal(node.left, curr + 1);
         inOrderTraversal(node.right, curr + 1);
     }
-}
 
-class TreeNode {
-    public TreeNode left;
-    public TreeNode right;
+    class TreeNode {
+        public TreeNode left;
+        public TreeNode right;
+    }
 }
