@@ -1,4 +1,4 @@
-package com.leetcode.stringmanipulation.easy;
+package com.leetcode.math.easy;
 
 /**
  * Created by ruvinyusubov on 05/11/2017.
@@ -9,13 +9,7 @@ public class PowerofThree_326 {
         if (n <= 0){
             return false;
         }
-
         double power = Math.log(n) / Math.log(3);
-
-        if ((int) Math.floor(power + eps) == (int) Math.ceil(power)) {
-            return true;
-        }
-
-        return false;
+        return Math.floor(power + eps) == Math.ceil(power);
     }
 }
