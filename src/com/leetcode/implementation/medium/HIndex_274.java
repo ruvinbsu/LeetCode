@@ -1,4 +1,4 @@
-package com.leetcode.implementation.easy.medium;
+package com.leetcode.implementation.medium;
 
 /**
  * Created by ruvinyusubov on 24/11/2017.
